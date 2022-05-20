@@ -1,0 +1,104 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: pink;
+}
+h1,
+h2 {
+  margin: 0;
+}
+
+.header {
+  background-color: rgb(214, 127, 145);
+  text-align: center;
+}
+
+#logo {
+  width: 200px;
+  margin: 0 auto;
+}
+
+.navbar {
+  display: flex;
+  background-color: darksalmon;
+}
+
+.navbar a {
+  color: black;
+  padding: 14px 20px;
+  text-decoration: dotted;
+  text-align: center;
+}
+
+.navbar a:hover {
+  background-color: rgb(148, 143, 143);
+  color: black;
+}
+.title {
+  color: black;
+  text-align: center;
+  height: justify;
+  padding-bottom: 35px;
+}
+
+.title {
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  letter-spacing: 10px;
+  margin-bottom: 20px;
+  position: relative;
+  animation: text 3s 1;
+}
+
+@keyframes text {
+  0% {
+    color: brown;
+    margin-bottom: -50px;
+  }
+  30% {
+    letter-spacing: 25px;
+    margin-bottom: -40px;
+  }
+  85% {
+    letter-spacing: 8px;
+    margin-bottom: -40px;
+  }
+}
+
+.section {
+  background-color: rgb(218, 172, 196);
+}
+
+.img-perfumes {
+  width: 300px;
+}
+.navbar-links {
+  margin: 20px;
+}
+
+.img-honey {
+  width: 300px;
+}
+
+.img-collagen {
+  width: 300px;
+}
+
+.img-chocolates {
+  width: 300px;
+}
+
+.section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.left {
+  margin-right: 50px;
+}
+
+.contact {
+  background-color: papayawhip;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+}
